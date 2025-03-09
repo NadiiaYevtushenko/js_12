@@ -8,9 +8,12 @@
     "build": "vite build",
     "preview": "vite preview",
     "test:jest": "jest",
-    "test:vitest": "vitest"
+    "test:vitest": "vitest",
+    "test:ui": "vitest --ui",
+    "coverage": "vitest run --coverage"
   },
   "devDependencies": {
+    "@vitest/ui": "^3.0.8",
     "vite": "^6.2.0",
     "vitest": "^3.0.8"
   }
